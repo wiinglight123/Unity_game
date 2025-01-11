@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
 
         // Verifică dacă player-ul este pe sol
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-       // animator.SetBool("isGrounded", isGrounded);
+        animator.SetBool("isGrounded", isGrounded);
 
         // Săritura
         if (Input.GetButtonDown("Jump") && isGrounded)
