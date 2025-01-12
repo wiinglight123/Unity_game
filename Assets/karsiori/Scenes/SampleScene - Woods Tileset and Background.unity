@@ -570,7 +570,7 @@ GameObject:
   - component: {fileID: 58712828}
   m_Layer: 0
   m_Name: bear-walk1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -747,12 +747,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 58712827}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.93, y: -3.08, z: -12.0156}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 58.87043, y: -2.403068, z: -12.055704}
   m_LocalScale: {x: 2.3565118, y: 2.9513373, z: 0.91161}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 853522066}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &69919615
 GameObject:
@@ -2532,7 +2532,7 @@ GameObject:
   - component: {fileID: 540541040}
   m_Layer: 0
   m_Name: slimer1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3670,6 +3670,7 @@ Transform:
   m_Children:
   - {fileID: 540541034}
   - {fileID: 958961486}
+  - {fileID: 58712833}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &856892750
@@ -3880,6 +3881,7 @@ GameObject:
   - component: {fileID: 897254676}
   - component: {fileID: 897254671}
   - component: {fileID: 897254677}
+  - component: {fileID: 897254678}
   m_Layer: 0
   m_Name: player-idle-1
   m_TagString: Untagged
@@ -4063,6 +4065,24 @@ CapsuleCollider2D:
   m_Offset: {x: -0.008077621, y: -0.032311168}
   m_Size: {x: 0.21691132, y: 0.29768884}
   m_Direction: 0
+--- !u!114 &897254678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897254669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5568d8b72d85e4a49906f3423bd7352d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 897254674}
+  respawnPosition: {x: 0, y: 0, z: 0}
+  fallThreshold: -10
+  Finish: 0
+  winningTag: WinningSprite
+  enemyTag: Enemy
 --- !u!1 &958961485
 GameObject:
   m_ObjectHideFlags: 0
@@ -4079,7 +4099,7 @@ GameObject:
   - component: {fileID: 958961487}
   m_Layer: 0
   m_Name: slimer1 (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10518,4 +10538,3 @@ SceneRoots:
   - {fileID: 897254674}
   - {fileID: 856892753}
   - {fileID: 853522066}
-  - {fileID: 58712833}
