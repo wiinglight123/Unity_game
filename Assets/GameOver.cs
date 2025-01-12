@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using System.Collections;
 public class GameOver : MonoBehaviour
 {
     public Transform player;
@@ -34,10 +34,9 @@ public class GameOver : MonoBehaviour
     }
 
     void RespawnPlayer()
-    {
+    {   Dies = false;
         player.position = respawnPosition;
         Debug.Log("Player has been respawned.");
-        Dies = false;
         animator.SetBool("Dies", Dies);
     }
 
@@ -54,7 +53,7 @@ public class GameOver : MonoBehaviour
             }
 
             // Inside OnCollisionEnter2D
-            StartCoroutine(RespawnAfterDelay(2.0f)); // Adjust the delay as needed
+            StartCoroutine(RespawnAfterDelay(0.5f)); // Adjust the delay as needed
         }
     }
 
