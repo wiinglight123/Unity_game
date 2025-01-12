@@ -9,6 +9,8 @@ public class GameOver : MonoBehaviour
     private Animator animator;
     public string winningTag = "WinningSprite";
 
+    public string enemyTag = "Enemy";
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -37,12 +39,20 @@ public class GameOver : MonoBehaviour
         Debug.Log("Player has been respawned.");
     }
 
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            RespawnPlayer();
+        }
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag(winningTag))
         {
             Debug.Log("Player has won the game!");
-            
+
             Finish = true;
             animator.SetBool("Finish", Finish);
             // Implement your win game logic here
