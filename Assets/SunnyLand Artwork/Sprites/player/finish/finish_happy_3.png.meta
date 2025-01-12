@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b13fd683c2f2ef146a03554ae13c2fe1
+guid: a1623b8061555de4b89867c37058da1e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5258891726750683953
-    second: test_finish_happy_0
+      213: -4410155481470144657
+    second: finish_happy_3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,12 +113,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: test_finish_happy_0
+      name: finish_happy_3_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 6
         y: 0
-        width: 24
+        width: 19
         height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fcce8ca56d9a407b0800000000000000
-      internalID: -5258891726750683953
+      spriteID: f6feab2a4fafbc2c0800000000000000
+      internalID: -4410155481470144657
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      test_finish_happy_0: -5258891726750683953
+      finish_happy_3_0: -4410155481470144657
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

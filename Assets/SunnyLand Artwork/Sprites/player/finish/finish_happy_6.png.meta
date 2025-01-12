@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 168d4ff59c9220747842f9af30157891
+guid: e3a70de4968dd8d48a09d990b1c9b2c2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8225112312750379081
-    second: Untitled 01-11-2025 12-26-38_0
+      213: 2849959617541160162
+    second: finish_happy_6_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,12 +113,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled 01-11-2025 12-26-38_0
+      name: finish_happy_6_0
       rect:
         serializedVersion: 2
         x: 5
         y: 0
-        width: 20
+        width: 23
         height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9409d27e118752270800000000000000
-      internalID: 8225112312750379081
+      spriteID: 2ecbfb32c271d8720800000000000000
+      internalID: 2849959617541160162
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Untitled 01-11-2025 12-26-38_0: 8225112312750379081
+      finish_happy_6_0: 2849959617541160162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
